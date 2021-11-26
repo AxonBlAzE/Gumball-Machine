@@ -7,7 +7,7 @@ def show_menu():
 
 def get_x():
     x = int(input("\nPlease enter your choice: "))
-    if x not in range(1,4):
+    if x not in range(1,5):
         print("\nInvalid choice")
         get_x()
     return x
